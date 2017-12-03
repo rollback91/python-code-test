@@ -103,4 +103,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+MEDIA_ROOT = '{}/media'.format(BASE_DIR)
+
+MEDIA_URL = '/media/'
+
 REACTIONS_FK = 'episodes.Episode'

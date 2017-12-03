@@ -1,22 +1,32 @@
 [
 {
-    "pk": 1,
     "model": "episodes.episode",
     "fields": {
-        "hero_image": "./Screenshot-2017-12-3_1534_jpg_JPEG_Image_1200__1200_pixels_-_Scaled_581_TV3jXDI.png",
-        "title": "A very Good Episode",
         "episode_number": 1,
+        "title": "A very Good Episode",
+        "hero_image": "./Screenshot-2017-12-3_1534_jpg_JPEG_Image_1200__1200_pixels_-_Scaled_581_TV3jXDI.png",
         "created_at": "2017-12-03T15:25:04Z"
-    }
+    },
+    "pk": 1
 },
 {
-    "pk": 2,
     "model": "episodes.episode",
     "fields": {
-        "hero_image": "./Screenshot-2017-12-3_1534_jpg_JPEG_Image_1200__1200_pixels_-_Scaled_584_5NqjYsN.png",
-        "title": "A very Bad Episode",
         "episode_number": 2,
+        "title": "A very Bad Episode",
+        "hero_image": "./Screenshot-2017-12-3_1534_jpg_JPEG_Image_1200__1200_pixels_-_Scaled_584_5NqjYsN.png",
         "created_at": "2017-12-03T15:25:53Z"
-    }
+    },
+    "pk": 2
+},
+{
+    "model": "episodes.episode",
+    "fields": {
+        "episode_number": 3,
+        "title": "Somehow a standard episode",
+        "hero_image": "./Screenshot-2017-12-3_1534_jpg_JPEG_Image_1200__1200_pixels_-_Scaled_581.png",
+        "created_at": "2017-12-03T22:39:29Z"
+    },
+    "pk": 3
 }
 ]

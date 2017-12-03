@@ -5,6 +5,9 @@
     </header>
     <body>
         <div class="container">
+        {% if not reactions %}
+        <p>Nothing to see here...</p>
+        {% endif %}
         {% for reaction in reactions %}
         <div class="card border-primary">
                 <div class="card-header">{{reaction.user}}</div>
